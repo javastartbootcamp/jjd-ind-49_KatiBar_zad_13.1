@@ -39,7 +39,7 @@ public class VotingResult {
     private double calculateVotes(List<Boolean> votes, Boolean artOfVote) {
         int numberOfVotes = 0;
         double numberOfVotesPercent;
-        for (Boolean vote :votes){
+        for (Boolean vote : votes) {
             if (vote == artOfVote) {
                 numberOfVotes++;
             }

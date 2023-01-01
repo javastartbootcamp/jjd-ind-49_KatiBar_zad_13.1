@@ -47,6 +47,8 @@ public class Voting {
                         voteBoolean = null;
                         result = true;
                         break;
+                    default:
+                        System.out.println("Niepoprawny głos, spróbuj jeszcze raz");
                 }
             } while (!result);
             votes.add(voteBoolean);
